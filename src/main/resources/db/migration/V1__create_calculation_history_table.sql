@@ -1,0 +1,7 @@
+CREATE TABLE calculation_history (
+    id BIGINT NOT NULL AUTO_INCREMENT,
+    expression VARCHAR(1000) NOT NULL,
+    result VARCHAR(500) NOT NULL,
+    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY (id)
+);
